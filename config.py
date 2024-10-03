@@ -30,7 +30,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "shortyfi.link")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "3baaf60ddf2a9a331f79b9222142a05c412170c0")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
-IS_VERIFY = os.environ.get("IS_VERIFY", "True")
+IS_VERIFY = os.environ.get("IS_VERIFY", "False")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/A2BTutorial")
 
 #force sub channel id, if you want enable force sub
